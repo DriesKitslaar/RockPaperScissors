@@ -1,0 +1,51 @@
+.centered {
+    display: block;
+    clear: both;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    min-width: 300px;
+
+}
+
+button {
+    margin: 30px;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+div {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    background-color: gold;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    margin-top: -20px;
+}
+
+.hidden-gif-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+html { 
+    background: url(https://c8.alamy.com/comp/2BKN10X/seamless-pattern-stone-paper-scissors-game-white-background-isolated-rock-paper-scissors-play-repeating-ornament-question-answer-print-wallpaper-2BKN10X.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
