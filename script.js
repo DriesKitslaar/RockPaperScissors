@@ -92,13 +92,14 @@ rockButton.textContent = 'steen'
 paperButton.textContent = 'papier'
 scissorsButton.textContent = 'schaar'
 
+
+// Jumpscare
 const hiddenGifContainer = document.createElement('div');
 const hiddenGif = document.createElement('img')
 hiddenGif.src = 'https://media.tenor.com/Q-ljDUwq8-QAAAAi/fnaf-foxy.gif'
 hiddenGifContainer.appendChild(hiddenGif);
 hiddenGifContainer.classList.add('hidden-gif-container');
 hiddenGif.style.display = 'none'
-
 const soundEffect = new Audio('https://us-tuna-sounds-files.voicemod.net/f8060c61-4129-4b86-a2d7-c003f0997a00-1662929170609.mp3')
 
 
@@ -129,6 +130,4 @@ pointsDiv.appendChild(userPoints)
 
 div.appendChild(pointsDiv)
 document.body.appendChild(hiddenGifContainer);
-
-
 

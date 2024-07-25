@@ -21,7 +21,7 @@ button {
 
 }
 
-div {
+#gameContainer {
     position: relative;
     top: 50%;
     transform: translateY(50%);
@@ -49,3 +49,4 @@ html {
     -o-background-size: cover;
     background-size: cover;
   }
+  
